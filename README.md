@@ -20,6 +20,3 @@ This repository contains hands-on DevOps projects.
 - Terraform
 - Ansible
 
-
-##PROJECT URL
-https://roadmap.sh/projects
