@@ -1,3 +1,5 @@
+# Project Page URL
+
 https://roadmap.sh/projects/
 
 # DevOps Projects
@@ -22,6 +24,3 @@ This repository contains hands-on DevOps projects.
 - Terraform
 - Ansible
 
-# Project Page URL
-roadmap.sh.
-https://roadmap.sh/projects/nginx-log-analyser
