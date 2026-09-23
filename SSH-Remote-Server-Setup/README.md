@@ -4,7 +4,7 @@ I set up a Linux server on AWS (EC2) and configured SSH access using two differe
 
 Project Page URL
 
-https://roadmap.sh/projects/ssh-remote-server-setup
+https://roadmap.sh/projects/
 
 ## What I used
 
