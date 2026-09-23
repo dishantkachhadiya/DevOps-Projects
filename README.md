@@ -24,3 +24,4 @@ This repository contains hands-on DevOps projects.
 - Terraform
 - Ansible
 
+https://roadmap.sh/projects/ssh-remote-server-setup
