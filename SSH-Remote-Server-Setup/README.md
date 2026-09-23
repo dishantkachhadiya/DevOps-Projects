@@ -2,7 +2,11 @@
 
 I set up a Linux server on AWS (EC2) and configured SSH access using two different SSH key pairs.
 
-Project: https://roadmap.sh/projects/ssh-remote-server-setup
+Project URL
+https://roadmap.sh/projects/server-stats
+
+Repository
+https://github.com/dishantkachhadiya/server-performance-stats
 
 ## What I used
 
