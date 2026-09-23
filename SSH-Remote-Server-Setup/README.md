@@ -3,10 +3,10 @@
 I set up a Linux server on AWS (EC2) and configured SSH access using two different SSH key pairs.
 
 Project URL
-https://roadmap.sh/projects/server-stats
+https://roadmap.sh/projects/ssh-remote-server-setup
 
 Repository
-https://github.com/dishantkachhadiya/server-performance-stats
+https://github.com/dishantkachhadiya/SSH-Remote-Server-Setup
 
 ## What I used
 
