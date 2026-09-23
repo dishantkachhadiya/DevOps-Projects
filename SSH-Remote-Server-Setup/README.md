@@ -2,13 +2,8 @@
 
 I set up a Linux server on AWS (EC2) and configured SSH access using two different SSH key pairs.
 
-## Project Source
+Project Page URL
 
-This project was completed as part of my DevOps learning journey following the projects from 
-
-[roadmap.sh](https://roadmap.sh/).
-
-Project URL
 https://roadmap.sh/projects/ssh-remote-server-setup
 
 ## What I used
