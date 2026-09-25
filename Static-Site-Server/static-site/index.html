@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Static Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hello, I'm Dishant 👋</h1>
+    <p>This is a static site deployed with Nginx and rsync.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About this project</h2>
+      <p>
+        This page is served by an Nginx web server running on a Linux
+        instance on AWS EC2. Changes are pushed to the server using
+        <code>rsync</code> via a simple <code>deploy.sh</code> script.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Tech used</h2>
+      <ul>
+        <li>Linux (Ubuntu on AWS EC2)</li>
+        <li>Nginx</li>
+        <li>HTML &amp; CSS</li>
+        <li>rsync over SSH</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <img src="images/photo.jpg" alt="Placeholder image" class="site-image">
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dishant Kachhadiya. Built for the roadmap.sh DevOps track.</p>
+  </footer>
+
+</body>
+</html>
