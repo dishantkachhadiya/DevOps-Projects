@@ -34,6 +34,7 @@ My solutions to the DevOps projects from [roadmap.sh](https://roadmap.sh/devops/
 | Log Archiver Tool | https://roadmap.sh/projects/log-archive-tool | [View solution](./Log-Archive-Tool/README.md) |
 | Nginx Log Analyser | https://roadmap.sh/projects/nginx-log-analyser | [View solution](./Nginx-Log-Analyser/README.md) |
 | SSH Remote Server Setup | https://roadmap.sh/projects/ssh-remote-server-setup | [View solution](./SSH-Remote-Server-Setup/README.md) |
+| Static-Server-Site | https://roadmap.sh/projects/static-site-server | [View solution](./Static-Site-Server/README.md) |
 <!--
 HOW TO ADD A NEW PROJECT
 Copy the row below, paste it as a new line at the end of the table above,
