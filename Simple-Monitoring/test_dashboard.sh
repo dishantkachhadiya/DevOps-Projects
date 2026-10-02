@@ -32,4 +32,4 @@ else
 fi
 
 echo "==> Load test finished."
-echo "Open http://<server-ip>:19999 and check the CPU chart to see the spike."
+
