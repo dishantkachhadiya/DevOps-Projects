@@ -12,7 +12,7 @@ echo "==> Updating package lists..."
 sudo apt update
 
 echo "==> Downloading and running the official Netdata installer..."
-wget -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh
+wget --https-only -O /tmp/netdata-kickstart.sh https://get.netdata.cloud/kickstart.sh
 sh /tmp/netdata-kickstart.sh --non-interactive
 
 echo "==> Checking Netdata service status..."
