@@ -11,7 +11,7 @@ DURATION=30  # seconds of load to generate
 echo "==> Checking that Netdata is reachable on port 19999..."
 # Plain HTTP is intentional here: this only talks to localhost, Netdata's
 # dashboard does not serve HTTPS by default.
-if curl -s --max-time 5 http://localhost:19999/api/v1/info > /dev/null; then
+if curl -s --max-time 5 http://localhost:19999/api/v1/info > /dev/null; then # NOSONAR -- localhost-only request, no network exposure
     echo "Netdata is responding locally."
 else
     echo "ERROR: Netdata does not seem to be running. Run setup.sh first."
