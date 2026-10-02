@@ -29,4 +29,4 @@ else
 fi
 
 echo "==> Done! Netdata should now be running."
-echo "Visit http://<server-ip>:19999 in your browser to view the dashboard."
+
