@@ -38,6 +38,7 @@ My solutions to the DevOps projects from [roadmap.sh](https://roadmap.sh/devops/
 | Simple-Monitoring | https://roadmap.sh/projects/simple-monitoring-dashboard | [View solution](./Simple-Monitoring/README.md) |
 | Dummy-Service | https://roadmap.sh/projects/dummy-systemd-service | [View solution](./Dummy-Service/README.md) |
 | Basic-DockerFile | https://roadmap.sh/projects/basic-dockerfile | [View solution](./Basic-DockerFile/README.md) |
+| EC2 Connection | https://roadmap.sh/projects/ec2-instance | [View solution](./EC2-Connection/README.md) |
 
 <!--
 HOW TO ADD A NEW PROJECT
