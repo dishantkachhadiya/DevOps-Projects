@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EC2 Static Site</title>
+  <style>
+    /* Hide all sections by default */
+    section { display: none; }
+    /* Display only the targeted section */
+    section:target { display: block; }
+    /* Ensure the first section is visible if no hash is present */
+    body:not(:has(section:target)) > section:first-child { display: block; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a> |
+    <a href="#about">About</a>
+  </nav>
+
+  <section id="home">
+    <h1>Home Page</h1>
+    <p>Welcome to the single-file site.</p>
+  </section>
+
+  <section id="about">
+    <h1>About Page</h1>
+    <p>This is the about section.</p>
+  </section>
+</body>
+</html>
