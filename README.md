@@ -37,6 +37,7 @@ My solutions to the DevOps projects from [roadmap.sh](https://roadmap.sh/devops/
 | Static-Server-Site | https://roadmap.sh/projects/static-site-server | [View solution](./Static-Site-Server/README.md) |
 | Simple-Monitoring | https://roadmap.sh/projects/simple-monitoring-dashboard | [View solution](./Simple-Monitoring/README.md) |
 | Dummy-Service | https://roadmap.sh/projects/dummy-systemd-service | [View solution](./Dummy-Service/README.md) |
+| Basic-DockerFile | https://roadmap.sh/projects/basic-dockerfile | [View solution](./Basic-DockerFile/README.md) |
 
 <!--
 HOW TO ADD A NEW PROJECT
