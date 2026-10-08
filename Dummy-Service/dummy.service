@@ -1,0 +1,9 @@
+[Unit]
+Description=Dummy logging service
+
+[Service]
+ExecStart=/usr/local/bin/dummy.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
