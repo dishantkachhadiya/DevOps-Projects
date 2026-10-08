@@ -36,6 +36,8 @@ My solutions to the DevOps projects from [roadmap.sh](https://roadmap.sh/devops/
 | SSH Remote Server Setup | https://roadmap.sh/projects/ssh-remote-server-setup | [View solution](./SSH-Remote-Server-Setup/README.md) |
 | Static-Server-Site | https://roadmap.sh/projects/static-site-server | [View solution](./Static-Site-Server/README.md) |
 | Simple-Monitoring | https://roadmap.sh/projects/simple-monitoring-dashboard | [View solution](./Simple-Monitoring/README.md) |
+| Dummy-Service | https://roadmap.sh/projects/dummy-systemd-service | [View solution](./Dummy-Service/README.md) |
+
 <!--
 HOW TO ADD A NEW PROJECT
 Copy the row below, paste it as a new line at the end of the table above,
