@@ -7,7 +7,8 @@
     state: directory
     owner: www-data
     group: www-data
-    mode: '0755'
+    ##Make it un-comminment
+    ##mode: '0755'
   tags: app
 
 - name: Copy the site tarball to the server
