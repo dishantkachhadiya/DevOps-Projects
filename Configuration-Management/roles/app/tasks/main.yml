@@ -1,0 +1,38 @@
+---
+# app role: deploy the static site tarball to the server
+
+- name: Ensure the web root exists
+  file:
+    path: /var/www/html
+    state: directory
+    owner: www-data
+    group: www-data
+    mode: '0755'
+  tags: app
+
+- name: Copy the site tarball to the server
+  copy:
+    src: site.tar.gz
+    dest: /tmp/site.tar.gz
+  tags: app
+
+- name: Extract the site tarball into the web root
+  unarchive:
+    src: /tmp/site.tar.gz
+    dest: /var/www/html
+    remote_src: yes
+    owner: www-data
+    group: www-data
+  tags: app
+
+- name: Remove the temporary tarball
+  file:
+    path: /tmp/site.tar.gz
+    state: absent
+  tags: app
+
+- name: Restart nginx to pick up the new site
+  systemd:
+    name: nginx
+    state: restarted
+  tags: app

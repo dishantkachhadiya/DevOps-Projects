@@ -1,0 +1,33 @@
+---
+# base role: basic server setup
+
+- name: Update apt cache and upgrade all packages
+  apt:
+    update_cache: yes
+    upgrade: dist
+  tags: base
+
+- name: Install common utilities
+  apt:
+    name:
+      - curl
+      - wget
+      - vim
+      - git
+      - unzip
+      - htop
+    state: present
+  tags: base
+
+- name: Install fail2ban
+  apt:
+    name: fail2ban
+    state: present
+  tags: base
+
+- name: Ensure fail2ban is enabled and running
+  systemd:
+    name: fail2ban
+    enabled: yes
+    state: started
+  tags: base

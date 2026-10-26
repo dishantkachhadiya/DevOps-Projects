@@ -1,0 +1,23 @@
+---
+# nginx role: install and configure nginx
+
+- name: Install nginx
+  apt:
+    name: nginx
+    state: present
+  tags: nginx
+
+- name: Ensure nginx is enabled and running
+  systemd:
+    name: nginx
+    enabled: yes
+    state: started
+  tags: nginx
+
+- name: Allow HTTP traffic through ufw, if it's active
+  ufw:
+    rule: allow
+    port: '80'
+    proto: tcp
+  tags: nginx
+  ignore_errors: yes

@@ -1,0 +1,9 @@
+---
+# ssh role: add a given public key to the server's authorized_keys
+
+- name: Add the public key to the server
+  authorized_key:
+    user: "{{ ansible_user }}"
+    state: present
+    key: "{{ lookup('file', 'deploy_key.pub') }}"
+  tags: ssh
