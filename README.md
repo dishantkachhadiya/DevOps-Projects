@@ -40,6 +40,7 @@ My solutions to the DevOps projects from [roadmap.sh](https://roadmap.sh/devops/
 | Basic-DockerFile | https://roadmap.sh/projects/basic-dockerfile | [View solution](./Basic-DockerFile/README.md) |
 | EC2 Connection | https://roadmap.sh/projects/ec2-instance | [View solution](./EC2-Connection/README.md) |
 | Configuration Management | https://roadmap.sh/projects/configuration-management | [View solution](./Configuration-Management/README.md) |
+| IaC-AWS | https://roadmap.sh/projects/iac-digitalocean | [View solution](./IaC-AWS/README.md) |
 
 <!--
 HOW TO ADD A NEW PROJECT
