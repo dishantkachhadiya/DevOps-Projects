@@ -1,3 +1,4 @@
+/*
 terraform {
   required_providers {
     aws = {
@@ -56,3 +57,5 @@ resource "aws_instance" "web" {
     Name = "terraform-instance"
   }
 }
+
+*/
